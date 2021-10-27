@@ -1,0 +1,83 @@
+.postCard{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    background: white;
+    padding: 0.5rem;
+    margin: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: max-content;
+}
+
+.postCard>h2{
+  margin: 0;
+}
+
+.post_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tweet_area{
+    outline: none;
+    border: 2px solid white;
+    resize: none;
+    width: max-content;
+    font-size: 1.5rem;
+    margin: 0.3rem;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    font-size: 1.3rem;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer */
+    font-size: 1.3rem;
+  }
+  
+  ::placeholder {
+    font-size: 1.3rem;
+  }
+
+  #snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }

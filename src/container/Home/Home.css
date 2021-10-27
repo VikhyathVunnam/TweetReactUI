@@ -1,0 +1,13 @@
+.home_page{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.tweet_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+}

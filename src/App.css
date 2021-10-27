@@ -1,0 +1,57 @@
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn{
+  background-color: rgb(29, 161, 242);
+  padding: 0.7rem;
+  margin: 0.3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid rgb(29, 161, 242);
+  cursor: pointer; 
+  color: white;
+  outline: none;
+  border-radius: 1.5rem;
+  width: max-content;
+}
+
+.btn:hover{
+  color: rgb(29, 161, 242);
+  background-color: white;
+}
+
+.error{
+  font-size: 1rem;
+  color: red;
+}
+
+input{
+  outline: none;
+  border: 1px solid black;
+  width: 20rem;
+  height: 2rem;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.form_ele{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.err_msg{
+  color: white;
+  background-color: rgb(236, 81, 112);
+  font-weight: bold;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  border: 2px solid  rgb(236, 81, 112);
+  border-radius: 0.5rem;
+}
+

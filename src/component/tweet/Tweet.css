@@ -1,0 +1,43 @@
+.tweetCard{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    background: white;
+    padding: 0.5rem;
+    margin: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: max-content;
+}
+
+.avatar{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.3rem;
+}
+
+.tweet_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tweet_userContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tweet_body{
+    line-break: auto;
+    text-align: left;
+}
+
+.tweet_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tweet_footer>i{
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.7rem;
+    width: max-content;
+    height: max-content;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login>img{
+    width: 5rem;
+}
+
+.error{
+    font-size: 1rem;
+    color: red;
+}
+
+.login_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.link{
+    text-decoration: none;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #3399ff
+}
+
+.link:hover{
+    text-decoration: underline
+}

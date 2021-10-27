@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: TweetApp
+      
+jwt:
+  secret: tweetApp
+  
+mongodb:
+  host: mongodb://localhost:27017
+  database: tweetapp
+  
+server:  port: 8080
+  servlet:    context-path: /api/tweets
+    
+logging:
+   file:
+    name: C:\Users\91984\Desktop\logs\elk_stack-log.log
